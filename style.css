@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100vh;
+    background-color: palegreen;
+}
+section{
+    height: 100vh;
+    background-color: rgb(39, 222, 247);
+}
+
+.overlays{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay>p{
+    font-size: 30px;
+    color: rgb(51, 40, 40);
+}
+
+.overlay.one{
+    background-color: rgb(251, 152, 152);
+}
+.overlay.two{
+      background-color: rgb(152, 211, 251);  
+}
+.overlay.three{
+       background-color: rgb(251, 188, 152); 
+}
+.overlay.four{
+       background-color: rgb(251, 152, 229); 
+}
